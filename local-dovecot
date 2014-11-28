@@ -1,0 +1,3 @@
+#sarge specific
+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: POP3\([-_.@[:alnum:]]+\): Connection closed top=[[:digit:]]+/[[:digit:]]+, retr=[[:digit:]]+/[[:digit:]]+, del=[[:digit:]]+/[[:digit:]]+, size=[[:digit:]]+$

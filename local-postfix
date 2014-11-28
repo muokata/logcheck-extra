@@ -1,0 +1,4 @@
+#sarge specific
+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtp\[[[:digit:]]+\]: [[:upper:][:digit:]]+: enabling PIX <CRLF>\.<CRLF> workaround for [._[:alnum:]-]+\[[[:digit:].]{7,15}\](:[[:digit:]]{1,5})?$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtp\[[[:digit:]]+\]: [[:upper:][:digit:]]+: enabling PIX workarounds:( (disable_esmtp|delay_dotcrlf))+ for [._[:alnum:]-]+\[[[:digit:].]{7,15}\](:[[:digit:]]{1,5})?$
