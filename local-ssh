@@ -1,0 +1,2 @@
+#sftp rule. this is fixed in later debian versions
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: subsystem request for sftp by user [._[:alnum:]-]+$
